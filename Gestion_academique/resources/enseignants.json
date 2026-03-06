@@ -1,0 +1,28 @@
+{
+    "enseignants": [
+        {
+            "id": "PR001",
+            "nom": "Martin",
+            "prenom": "Jean",
+            "cours_enseignes": ["CS101"]
+        },
+        {
+            "id": "PR002",
+            "nom": "Bernard",
+            "prenom": "Sophie",
+            "cours_enseignes": ["ECO202"]
+        },
+        {
+            "id": "PR003",
+            "nom": "Petit",
+            "prenom": "Thomas",
+            "cours_enseignes": ["PHY305"]
+        },
+        {
+            "id": "PR004",
+            "nom": "Morel",
+            "prenom": "Alice",
+            "cours_enseignes": ["LIT150"]
+        }
+    ]
+}

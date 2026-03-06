@@ -1,0 +1,22 @@
+{
+    "etudiants": [
+        {
+            "id": "ST001",
+            "nom": "Dupont",
+            "prenom": "Marie",
+            "cours_inscrits": ["CS101", "PHY305"]
+        },
+        {
+            "id": "ST002",
+            "nom": "Durand",
+            "prenom": "Lucas",
+            "cours_inscrits": ["ECO202", "LIT150"]
+        },
+        {
+            "id": "ST003",
+            "nom": "Lefebvre",
+            "prenom": "Chloé",
+            "cours_inscrits": ["CS101", "ECO202", "PHY305"]
+        }
+    ]
+}

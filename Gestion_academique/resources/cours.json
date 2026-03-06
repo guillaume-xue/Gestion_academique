@@ -1,0 +1,42 @@
+{
+  "universite": "Institut International des Sciences et Technologies",
+  "annee_academique": "2025-2026",
+  "cours": [
+    {
+      "id": "CS101",
+      "titre": "Introduction à l'Intelligence Artificielle",
+      "departement": "Informatique",
+      "credits": 6,
+      "description": "Étude des principes fondamentaux de l'IA, incluant le machine learning et les réseaux de neurones.",
+      "horaires": "Lundi 09:00 - 12:00",
+      "salle": "Amphi Delta",
+    },
+    {
+      "id": "ECO202",
+      "titre": "Macroéconomie Avancée",
+      "departement": "Économie",
+      "credits": 4,
+      "description": "Analyse des modèles de croissance économique et des politiques monétaires mondiales.",
+      "horaires": "Mardi 14:00 - 16:00",
+      "salle": "Salle 302",
+    },
+    {
+      "id": "PHY305",
+      "titre": "Physique Quantique : Fondamentaux",
+      "departement": "Physique",
+      "credits": 8,
+      "description": "Exploration de la dualité onde-particule et de l'équation de Schrödinger.",
+      "horaires": "Jeudi 10:00 - 13:00",
+      "salle": "Laboratoire B",
+    },
+    {
+      "id": "LIT150",
+      "titre": "Littérature Comparée : Le Surréalisme",
+      "departement": "Lettres",
+      "credits": 3,
+      "description": "Analyse des mouvements littéraires du XXe siècle et leur impact sur la culture moderne.",
+      "horaires": "Vendredi 15:00 - 17:00",
+      "salle": "Bibliothèque Centrale",
+    }
+  ]
+}
