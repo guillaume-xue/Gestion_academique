@@ -1,4 +1,4 @@
-# Xue-Yu Scramble - Projets Swift
+# Gestion académique - Projets Swift
 
 Workspace contenant un applications de gestion académique Swift natives pour macOS.
 
