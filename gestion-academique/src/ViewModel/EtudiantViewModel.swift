@@ -4,6 +4,7 @@
 //
 //  Created by Guillaume on 20/02/2026.
 //
+
 import Foundation
 import SwiftData
 

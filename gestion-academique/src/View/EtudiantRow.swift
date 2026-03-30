@@ -13,6 +13,7 @@ struct EtudiantRow: View {
     
     let etudiant: EtudiantViewModel
     let cours: CoursViewModel
+    let enseignant: EnseignantViewModel
     
     var body: some View {
         NavigationLink(destination: EtudiantDetailView(etudiant: item)) {
@@ -28,8 +29,8 @@ struct EtudiantRow: View {
         List {
             Section("Cours inscrits") {
                 if let coursInscrits = etudiant.coursInscrits, !coursInscrits.isEmpty {
-                    ForEach(coursInscrits) { cours in
-                        CoursRow(item: cours, cours: self.cours, etudiant: self.etudiant)
+                    ForEach(coursInscrits) { c in
+                        CoursRow(item: c, cours: self.cours, etudiant: self.etudiant, enseignants: self.enseignant)
                     }
                 } else {
                     Text("Aucun cours inscrit")

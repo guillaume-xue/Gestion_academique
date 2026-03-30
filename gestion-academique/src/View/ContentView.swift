@@ -15,16 +15,20 @@ struct ContentView: View {
     func TabBar() -> some View {
         TabView {
             Tab("Cours", systemImage: "house"){
-                CoursView(cours: cours, etudiant: etudiant)
+                CoursView(cours: self.cours, etudiant: self.etudiant, enseignant: self.enseignant)
             }
             Tab("Etudiant", systemImage: "person.3.fill"){
-                EtudiantView(etudiant: etudiant, cours: self.cours)
+                EtudiantView(etudiant: etudiant, cours: self.cours, enseignant: enseignant)
             }
             Tab("Enseigants", systemImage: "person.2.badge.gearshape.fill"){
-                EnseignantView(enseignantVM: enseignant)
+                EnseignantView(etudiant: etudiant, cours: cours, enseignant: enseignant)
             }
-            Tab(role:.search){
-                
+            Tab("Recherche", systemImage: "magnifyingglass", role: .search) {
+                SearchView(
+                    cours: self.cours,
+                    etudiant: self.etudiant,
+                    enseignant: self.enseignant
+                )
             }
         }
         .onAppear {

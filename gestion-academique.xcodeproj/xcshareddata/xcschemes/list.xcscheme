@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "402B3A6F2F45A4A9002490D4"
-               BuildableName = "Gestion_academique.app"
-               BlueprintName = "Gestion_academique"
-               ReferencedContainer = "container:Gestion_academique.xcodeproj">
+               BuildableName = "gestion-academique.app"
+               BlueprintName = "gestion-academique"
+               ReferencedContainer = "container:gestion-academique.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "402B3A6F2F45A4A9002490D4"
-            BuildableName = "Gestion_academique.app"
-            BlueprintName = "Gestion_academique"
-            ReferencedContainer = "container:Gestion_academique.xcodeproj">
+            BuildableName = "gestion-academique.app"
+            BlueprintName = "gestion-academique"
+            ReferencedContainer = "container:gestion-academique.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "402B3A6F2F45A4A9002490D4"
-            BuildableName = "Gestion_academique.app"
-            BlueprintName = "Gestion_academique"
-            ReferencedContainer = "container:Gestion_academique.xcodeproj">
+            BuildableName = "gestion-academique.app"
+            BlueprintName = "gestion-academique"
+            ReferencedContainer = "container:gestion-academique.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

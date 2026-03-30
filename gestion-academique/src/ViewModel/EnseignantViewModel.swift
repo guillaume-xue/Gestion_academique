@@ -64,4 +64,10 @@ class EnseignantViewModel {
             print("Erreur fetch enseignants : \(error)")
         }
     }
+    
+    func filtrerEnseignantParCours(idCours: String) -> [EnseignantEntity] {
+        return listeEnseignant.filter { enseignant in
+            enseignant.coursEnseignes?.contains(where: { $0.id == idCours }) ?? false
+        }
+    }
 }
